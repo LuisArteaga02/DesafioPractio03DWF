@@ -1,5 +1,5 @@
 <h2>User service Gestion App in SpringBoot</h2>
-<img width="500" height="500" alt="reimu0000 " src="https://github.com/LuisArteaga02/DesafioPractio02DWF/blob/main/spring-boot-1.svg">
+<img width="500" height="500" alt="reimu0000 " src="https://github.com/LuisArteaga02/DesafioPractio03DWF/blob/main/spring-boot-1.svg">
 App what manage with api crud and MVC distint type of suscriptions and users what have errors manage and OpenAPI/Swagger for manage data of users and suscriptions with frontend
 
 <h3>How To Run</h3>
@@ -34,8 +34,16 @@ Subscription:
         "email": "juanito@email.com",<br>
         "createdAt": "2025-09-22T17:27:53.037759"<br>
     }<br>
+
+<h3>Examples of Frontend</h3>
+<img width="500" height="500" alt="reimu0000 " src="https://github.com/LuisArteaga02/DesafioPractio03DWF/blob/main/1.png">
+<br>
+<img width="500" height="500" alt="reimu0000 " src="https://github.com/LuisArteaga02/DesafioPractio03DWF/blob/main/2.png">
+<br>
+<img width="500" height="500" alt="reimu0000 " src="https://github.com/LuisArteaga02/DesafioPractio03DWF/blob/main/3.png">
 <h3>Authors</h3>
  Ever Gabriel Cabezas Alfaro,
 Luis Enrique Cartagena Arteaga
   
+
 
