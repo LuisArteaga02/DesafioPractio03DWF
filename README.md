@@ -1,6 +1,6 @@
 <h2>User service Gestion App in SpringBoot</h2>
 <img width="500" height="500" alt="reimu0000 " src="https://github.com/LuisArteaga02/DesafioPractio02DWF/blob/main/spring-boot-1.svg">
-App what manage with api crud distint type of suscriptions and users what have errors manage and OpenAPI/Swagger for manage data of users and suscriptions
+App what manage with api crud and MVC distint type of suscriptions and users what have errors manage and OpenAPI/Swagger for manage data of users and suscriptions with frontend
 
 <h3>How To Run</h3>
 bash git clone https://github.com/LuisArteaga02/DesafioPractio02DWF.git cd DesafioPractico02DWF
@@ -9,8 +9,7 @@ Run the project in inteliji IDEA or type mvn spring-boot:run in terminal
 
 then in your browser go to http://localhost:8080/swagger-ui for display swager endpoints, users and suscriptions is located in /api/users and /api/suscriptions ./data directory
 
-If you want to see the database
-Go to search bar and type http://localhost:8080/h2-console the credentials, driver, datasource and password are: spring.datasource.url=jdbc:h2:./data:users driverClassName=org.h2.Driver .username=sa password=(leave empty) 
+If you want to see the frontend just type http://localhost:8080/ and you can see a login page and a registration 
 
 <h3>Examples of endpoints</h3>
 Subscription:
@@ -39,3 +38,4 @@ Subscription:
  Ever Gabriel Cabezas Alfaro,
 Luis Enrique Cartagena Arteaga
   
+
