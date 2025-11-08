@@ -1,0 +1,114 @@
+body {
+    background-color: #14151B;
+    color: #FC3E57;
+}
+.navbar-custom {
+    background: #5E918A !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.btn-custom
+{
+    background: #5E918A !important;
+    border-color: #FC3E57;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.list-group-item {
+    border: none;
+    border-radius: 0.375rem !important;
+    margin-bottom: 0.25rem;
+}
+
+.list-group-item.active {
+    background: #5E918A;
+    border-color: #FC3E57;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border-radius: 0.5rem;
+}
+
+.card-header {
+    background-color: #14151B;
+    border-bottom: 1px solid #5E918A;
+    font-weight: 600;
+}
+
+.table th {
+    border-top: none;
+    font-weight: 600;
+    color: #FC3E57;
+}
+
+.badge {
+    font-size: 0.75em;
+}
+
+/* Status badges */
+.badge-active {
+    background-color: #198754;
+}
+
+.badge-expired {
+    background-color: #dc3545;
+}
+
+.badge-upcoming {
+    background-color: #ffc107;
+    color: #000;
+}
+
+/* Hover effects */
+.list-group-item-action:hover {
+    background-color: #FC3E57;
+    transform: translateX(2px);
+    transition: all 0.2s;
+}
+
+.btn {
+    border-radius: 0.375rem;
+}
+
+/* Subscription cards */
+.subscription-card {
+    transition: transform 0.2s;
+}
+
+.subscription-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Alert positioning */
+.alert-fixed {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1060;
+}
+
+/* Tab content animations */
+.tab-pane {
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 0 10px;
+    }
+
+    .navbar-text {
+        display: none;
+    }
+}

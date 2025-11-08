@@ -40,7 +40,8 @@ public class AuthService {
 
         String token = jwtUtil.generateToken(user.getEmail(), user.getRole());
 
-        return new LoginResponseDTO(token, user.getEmail(), user.getName(), user.getRole());
+        // Asegúrate de incluir el ID en la respuesta
+        return new LoginResponseDTO(token, user.getId(), user.getEmail(), user.getName(), user.getRole());
     }
 
     public User register(RegisterRequestDTO registerRequest) {
