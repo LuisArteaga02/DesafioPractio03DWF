@@ -3,7 +3,7 @@
 App what manage with api crud and MVC distint type of suscriptions and users what have errors manage and OpenAPI/Swagger for manage data of users and suscriptions with frontend
 
 <h3>How To Run</h3>
-bash git clone https://github.com/LuisArteaga02/DesafioPractio02DWF.git cd DesafioPractico02DWF
+bash git clone https://github.com/LuisArteaga02/DesafioPractio02DWF.git cd DesafioPractico03DWF
 
 Run the project in inteliji IDEA or type mvn spring-boot:run in terminal
 
